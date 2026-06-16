@@ -13,6 +13,7 @@
 //* git config --global user.name "<user_name>"
 //* git config --global user.email "<user_email>"
 //* git config --global init.defaultbranch "main"
+//* git push origin <branch_name>
 
 //! repository / repo
 //? local repo
@@ -20,7 +21,7 @@
 
 //! git working flow
 
-//? working directory       ->staging area      ->local repo
+//? working directory       ->staging area      ->local repo            ->remote repo
 //? changes                   ready state         new version /commit
 
 //! initialize empty local repo
@@ -30,3 +31,9 @@
 //* git add <file_path>
 //* git add .
 //* git commit -m "<commit_message>"
+
+
+//? remote repo
+//* git remote -v -> list remote repo
+//* git remote add origin <remote_repo_url>
+//* git remote remove origin
