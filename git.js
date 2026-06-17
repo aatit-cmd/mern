@@ -51,3 +51,14 @@
 
 //* git log
 //* git log --oneline
+
+//! rebase
+
+// git rebase <>
+// main: A->B->c->D->G->H
+// feature:       D->E->F   //merge 
+// feature:       G'->H'->E->F  //rebase
+
+//! cherry-pick <commit_hash>
+// main: A->B->c->D
+// fix:            D->E->F->G
