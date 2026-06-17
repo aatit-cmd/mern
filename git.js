@@ -39,3 +39,7 @@
 //* git remote remove origin
 
 //! branch
+//* git branch
+//* git branch <branch_name> -> create new branch
+//* git switch <branch_name> -> switch brnach
+
