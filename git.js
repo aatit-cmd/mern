@@ -41,5 +41,6 @@
 //! branch
 //* git branch
 //* git branch <branch_name> -> create new branch
-//* git switch <branch_name> -> switch brnach
+//* git switch <branch_name> -> switch branch
+//* git merge <branch_name> -> merge branch
 
