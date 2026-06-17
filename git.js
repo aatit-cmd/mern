@@ -42,5 +42,12 @@
 //* git branch
 //* git branch <branch_name> -> create new branch
 //* git switch <branch_name> -> switch branch
+//* git switch -c <branch_name> -> create and switch branch
 //* git merge <branch_name> -> merge branch
 
+//* git stash -> it push the line that has not been commited into cache
+// git stash list
+// git stash pop -> it pop the temp stored that has not been commited
+
+//* git log
+//* git log --oneline
