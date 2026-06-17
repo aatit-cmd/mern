@@ -51,6 +51,3 @@
 
 //* git log
 //* git log --oneline
-
-// addfa
-// dfamg
