@@ -62,3 +62,10 @@
 //! cherry-pick <commit_hash>
 // main: A->B->c->D
 // fix:            D->E->F->G
+
+//* PR -> pull request
+
+//? main -> production
+//? develop -> integration branch
+//? hotfix -> emergency bug fix     // hotfix/login
+//? feature -> feature/login
